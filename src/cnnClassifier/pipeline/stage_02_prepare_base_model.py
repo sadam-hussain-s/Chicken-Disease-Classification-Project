@@ -2,7 +2,15 @@ from cnnClassifier.config.configuration import ConfigurationManager
 from cnnClassifier.components.prepare_base_model import PrepareBaseModel
 from cnnClassifier import logger
 
-
+"""
+The VGG-16 model is a convolutional neural network (CNN) architecture 
+that was proposed by the Visual Geometry Group (VGG) at the University of Oxford. 
+It is characterized by its depth, consisting of 16 layers, 
+including 13 convolutional layers and 3 fully connected layers. 
+VGG-16 is renowned for its simplicity and effectiveness, as well as its ability 
+to achieve strong performance on various computer vision tasks, 
+including image classification and object recognition.
+"""
 
 STAGE_NAME = "Prepare base model"
 
